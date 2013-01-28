@@ -19,6 +19,9 @@
             h2{
                 margin-left: 70px;
             }
+            h2.list{
+                margin-left: 0px;
+            }
             body{
                 background-image: 
                     url('http://i428.photobucket.com/albums/qq3/gotnoshame/Spoon.jpg');
@@ -48,6 +51,11 @@
                 font-size: 18px;
                 color: blue;
                 margin-left: 70px;
+            }
+            iframe{
+                position:absolute;
+                right: 20px;
+                top: 1100px;
             }
         </style>
     </head>
@@ -102,10 +110,11 @@
         The Tick's battle cry may not make sense, but it doesn't rank that much
         lower than Superman's: "SPOON!"  The Tick's sidekick, a former accountant
         named Arthur, also has quite an interesting battle cry: "NOT IN THE
-        FACE! NOT IN THE FACE!"<br><br><br>
+        FACE! NOT IN THE FACE!"  Watch the video below to see the birth of the
+        legendary battle cries.<br><br><br>
     </p2>
     <p2>
-    <h2>List of The Tick's Best Friends via JavaScript </h2>
+    <h2 class="list">List of The Tick's Best Friends via JavaScript </h2>
     <script>
         var bestFriends = ["Arthur",
             "American Maid", "Die Fledermaus", "Sewer Urchin"
@@ -118,6 +127,9 @@
         document.write("<br>");
         document.write(Date());
     </script>
-    </p2>    
+    </p2>
+    <iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/DBocpO2XUu0"
+frameborder="0" allowFullScreen></iframe>
 </body>
 </html>
