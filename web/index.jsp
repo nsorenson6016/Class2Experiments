@@ -104,10 +104,20 @@
         named Arthur, also has quite an interesting battle cry: "NOT IN THE
         FACE! NOT IN THE FACE!"<br><br><br>
     </p2>
-    <p>
-        <script>
-                document.write(Date());
-        </script>
-    </p>    
+    <p2>
+    <h2>List of The Tick's Best Friends via JavaScript </h2>
+    <script>
+        var bestFriends = ["Arthur",
+            "American Maid", "Die Fledermaus", "Sewer Urchin"
+        ];
+        
+        for (var i=0;i<bestFriends.length;i++)
+        {
+            document.write(bestFriends[i] + "<br>");
+        }
+        document.write("<br>");
+        document.write(Date());
+    </script>
+    </p2>    
 </body>
 </html>
