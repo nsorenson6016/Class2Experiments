@@ -24,7 +24,7 @@
             }
             p{
                 font-family: "Comic Sans MS",cursive, sans-serif;
-                font-style: bold;
+                font-style: oblique;
                 font-size: 18px;
                 color: blue;
                 margin-right: 450px;
